@@ -32,15 +32,14 @@ from skylee.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = f"""
-Hey There ! My name is 𝙈𝙚𝙞𝙠𝙤 
+Hey There ! My name is 𝐂𝐘𝐁𝐄𝐑𝐉𝐀𝐍𝐄 
 I'm here to make your group management fun and easy!
-I have lots of handy features, such as flood control, a warning system, a note keeping system, and even replies on predetermined filters.
 Please Click Help Button For Assistance And Help Regarding Special Modules
 You can find the list of available commands with Help Module.
 Any issues or need help related to me?
 ==========================
-✗ [Support Channel](t.me/Meikosupport)
-✗ [Support Group](t.me/meikoSupportChat)
+✗ [Support Channel](t.me/GiveawaysNation)
+✗ [Support Group](t.me/Giveaways_Nation)
 ==========================
 Wanna Add me to your Group? Just click the button below!
 """
@@ -48,13 +47,13 @@ Wanna Add me to your Group? Just click the button below!
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add Me To Group ➕", url="t.me/meikobot?startgroup=true"
+            text="Add Me To Group ➕", url="t.me/cyberjane_bot?startgroup=true"
         ),
-        InlineKeyboardButton(text="Updates & Info 📃", url="https://t.me/meikosupport"),
+        InlineKeyboardButton(text="🆕 Updates & Info 🆕", url="https://t.me/GiveawaysNation"),
     ]
 ]
 
-buttons += [[InlineKeyboardButton(text="Help & Commands ❔", callback_data="help_back")]]
+buttons += [[InlineKeyboardButton(text="🔰 Help & Commands 🔰", callback_data="help_back")]]
 
 
 HELP_STRINGS = f"""
